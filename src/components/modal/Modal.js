@@ -80,17 +80,17 @@ class Modal extends React.Component {
           </div>
           <div className="modal-body">
             <form className="row">
-              <div className="col-4">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-xl-4">
                 <div className="form-group">
                   <label className="col-12">Change avatar</label>
                   <input type="text" placeholder={this.state.avatarInput} name="avatarInput" className="form-control modal-form" onChange={this.onInputChange} />
                 </div>
-                <div className="avatar-preview text-center" style={{ color: "grey" }}>
+                <div className="avatar-preview text-center col-12" style={{ color: "grey" }}>
                   <p>Preview</p>
-                  <div className="thumb" style={{ backgroundImage: "url(" + this.state.avatarInput + ")" }}></div>
+                  <div className="thumb " style={{ backgroundImage: "url(" + this.state.avatarInput + ")" }}></div>
                 </div>
               </div>
-              <div className="col-8">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-xl-8">
                 <div className="form-group col-6 d-inline-block">
                   <label className="col-12">First name</label>
                   <input type="text" placeholder={this.state.nameInput} name="nameInput" className="form-control modal-form" onChange={this.onInputChange} />
@@ -99,18 +99,18 @@ class Modal extends React.Component {
                   <label className="col-12">Last name</label>
                   <input type="text" placeholder={this.state.surnameInput} name="surnameInput" className="form-control modal-form" onChange={this.onInputChange} />
                 </div>
-                <div className="form-group text-left">
-                  <label className="col-form-label">Bio</label>
+                <div className="form-group text-left ">
+                  <label className="col-form-label ">Bio</label>
                   <textarea className="form-control modal-form" placeholder={this.state.aboutInput}
                     name="aboutInput"
                     onChange={this.onInputChange} >
                   </textarea>
                 </div>
-                <div className="form-group text-left">
+                <div className="form-group text-left ">
                   <label className="col-form-label">Position</label>
                   <input type="text" placeholder={this.state.aboutJob} name="aboutJob" className="form-control modal-form" onChange={this.onInputChange} />
                 </div>
-                <div className="form-group text-left">
+                <div className="form-group text-left ">
                   <label>Country</label>
                   <select className="form-control modal-form" name="aboutCompany" onChange={this.onInputChange}>
                     <Countries />

@@ -74,10 +74,11 @@ a:hover {
 
 /* input.form-control */
 input {
-  background-color: transparent !important;
+  background-color: white !important;
+  color: #000;
 }
 .form-control[value] {
-  color: #fff !important;
+  color: black !important;
   opacity: 1 !important;
 }
 .form-control::-webkit-input-placeholder { color: white; opacity: 0.5 }  /* WebKit, Blink, Edge */

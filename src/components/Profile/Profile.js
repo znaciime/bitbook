@@ -49,7 +49,7 @@ class Profile extends React.Component {
           ) : null}
 
           <div className="row justify-content-center ">
-            <div className="card customCard shadow col-6">
+            <div className="card customCard shadow col-xs-12 col-sm-12 col-md-10 col-xl-6">
               <div className="col text-center">
                 <img
                   src={user.img}

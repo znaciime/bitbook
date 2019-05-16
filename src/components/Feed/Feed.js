@@ -59,23 +59,9 @@ class Feed extends React.Component {
       <div className="container">
       <div className="row">
       
-        <div className="col-2" />
+        <div className="col-xs-0 col-sm-2 col-md-2 col-xl-2" />
 
-        <div className="col-8">
-          <PostList 
-            posts={filteredPosts.length !== 0 ? filteredPosts : posts[pageNum]} 
-            handleDelete={this.removePost} 
-            fetchPosts={this.fetchPosts} />
-          <Pagination 
-          pages={posts.length}
-          currPage={pageNum}
-          handlePage={this.setPageNum}
-          next={this.nextPage}
-          prev={this.prevPage} />
-          <MainButton afterCreation={this.fetchPosts} />
-        </div>
-
-        <div className="col-2">
+        <div className="col-xs-12 col-sm-12 col-md-12 col-xl-12">
           <div className="dropdown mt-4 sticky-top">
             <button
               className="btn btn-secondary dropdown-toggle"
@@ -115,6 +101,20 @@ class Feed extends React.Component {
               </span>
             </div>
           </div>
+        <div className="col-xs-12 col-sm-12 col-md-10 col-xl-10">
+          <PostList 
+            posts={filteredPosts.length !== 0 ? filteredPosts : posts[pageNum]} 
+            handleDelete={this.removePost} 
+            fetchPosts={this.fetchPosts} />
+          <Pagination 
+          pages={posts.length}
+          currPage={pageNum}
+          handlePage={this.setPageNum}
+          next={this.nextPage}
+          prev={this.prevPage} />
+          <MainButton afterCreation={this.fetchPosts} />
+        </div>
+
         </div>
       </div>
 
