@@ -95,10 +95,7 @@ class Login extends React.Component {
               <h2>Bitbook</h2>
               <p>
                 Bitbook is new super cool social network. We had a vision to connect
-                people and make them believe in a better future. It's free to use but
-                we need some money to survive, so if you have some extra cash please
-                give it to us. More options coming very soon so be ready to flip out
-                . We won't let you down... Or we will, let's gamble!
+                people and make them believe in a better future. It's free to use . More options coming very soon so be ready to flip out. 
             </p>
             </div>
             <div className="col-6 text-dark ">
@@ -270,7 +267,7 @@ class Login extends React.Component {
 
         <footer className='page-footer font-small mt-5 fixed-bottom'>
           <div className="footer-copyright text-center text-white py-3" >
-            <span style={{ opacity: '0.5' }}>&copy; {new Date().getFullYear()} Copyright</span><span> PROJECT-X</span>
+            <span style={{ opacity: '0.5' }}>&copy; {new Date().getFullYear()} Copyright</span><span> Aleksandar Radovic</span>
           </div>
         </footer>
       </>

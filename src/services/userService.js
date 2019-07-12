@@ -46,7 +46,7 @@ export const fetchSingleUser = (userId) => {
         })
     })
         .then(res => res.json())
-        .then(({ id, avatarUrl = "[https://www.petmd.com/sites/default/files/Acute-Dog-Diarrhea-47066074.jpg]", name = "['']", about = "[]", comments = "[]", posts = "[]", createdAt = "['']" }) => {
+        .then(({ id="", avatarUrl ="", name ="", about="" , comments="" , posts="" , createdAt=""  }) => {
 
             return new User(id, avatarUrl, name.first, name.last, about.bio, about.countryCode, about.job, comments, posts, createdAt)
 

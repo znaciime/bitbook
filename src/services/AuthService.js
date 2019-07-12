@@ -2,7 +2,7 @@ import jwt_decode from 'jwt-decode';
 
 class AuthService {
     isLoggedIn() {
-        return !!localStorage.getItem('token')
+        return localStorage.getItem('token')
     };
 
     logout() {
@@ -16,7 +16,8 @@ class AuthService {
         }
 
         const user = jwt_decode(token);
-        
+        console.log(user)
+        console.log(user.id)
         return user.id;
     }
 
