@@ -16,8 +16,7 @@ class AuthService {
         }
 
         const user = jwt_decode(token);
-        console.log(user)
-        console.log(user.id)
+       
         return user.id;
     }
 

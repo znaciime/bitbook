@@ -42,13 +42,15 @@ export const fetchSingleUser = (userId) => {
         method: 'GET',
         headers: new Headers({
             'x-api-key': 'B1tD3V',
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'Authorization': Auth.getUserToken()
         })
     })
         .then(res => res.json())
-        .then(({ id="", avatarUrl ="", name ="", about="" , comments="" , posts="" , createdAt=""  }) => {
+       
+        .then(({ id="", avatarUrl ="", name ="", about="" , comments=0 , posts=0 , createdAt=""  }) => {
 
-            return new User(id, avatarUrl, name.first, name.last, about.bio, about.countryCode, about.job, comments, posts, createdAt)
+            return new User(id, avatarUrl, name.first, name.last, about.bio, about.countryCode, about.job, comments.length, posts.length, createdAt)
 
         })
 

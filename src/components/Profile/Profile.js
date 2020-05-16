@@ -20,7 +20,7 @@ class Profile extends React.Component {
     const userId = this.props.match.params.id || Auth.getUserId();
     fetchSingleUser(userId).then(user => {
       this.setState({
-        user
+        user: user
       });
     });
   }
@@ -36,8 +36,8 @@ class Profile extends React.Component {
   };
 
   render() {
-    console.log(this.state.user.id)
-    if (!this.state.user.id) {
+    console.log(Auth.getUserId())
+    if (!Auth.getUserId()) {
       return <p>Loading</p>;
     }
     const user = this.state.user;
@@ -83,13 +83,13 @@ class Profile extends React.Component {
                 <div className="row justify-content-center">
                   <div className="chips">
                     <div className="chip">
-                      <div className="chip-icon">{user.posts.length}</div>posts
+                      <div className="chip-icon">{user.comments}</div>posts
                     </div>
                   </div>
                   <div className="col-3" />
                   <div className="chips">
                     <div className="chip">
-                      <div className="chip-icon">{user.comments.length}</div>
+                      <div className="chip-icon">{user.posts}</div>
                       comments
                     </div>
                   </div>

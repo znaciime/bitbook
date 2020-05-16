@@ -2,6 +2,7 @@
   "name": "bitbook",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://znaciime.github.io/bitbooka/",
   "dependencies": {
     "jquery": "^3.4.0",
     "jwt-decode": "^2.2.0",
@@ -14,6 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy":"npm run build",
+    "deploy":"bitbooka -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
