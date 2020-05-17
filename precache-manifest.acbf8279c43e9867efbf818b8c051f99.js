@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "18aa18619ef01c164e21",
-    "url": "/bitbooka/static/css/main.45ea5b12.chunk.css"
+    "revision": "90cefa291a5daeb3cd86",
+    "url": "/bitbooka/static/css/main.2d35de39.chunk.css"
   },
   {
-    "revision": "18aa18619ef01c164e21",
+    "revision": "90cefa291a5daeb3cd86",
     "url": "/bitbooka/static/js/main.5a6ac507.chunk.js"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/bitbooka/static/media/not_found.57803829.png"
   },
   {
-    "revision": "347373bac17d76d64d69fa03d1821276",
+    "revision": "a64c7f703f38754d03f9a30ebc4e7902",
     "url": "/bitbooka/index.html"
   }
 ];

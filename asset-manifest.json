@@ -1,5 +1,5 @@
 {
-  "main.css": "/bitbooka/static/css/main.45ea5b12.chunk.css",
+  "main.css": "/bitbooka/static/css/main.2d35de39.chunk.css",
   "main.js": "/bitbooka/static/js/main.5a6ac507.chunk.js",
   "main.js.map": "/bitbooka/static/js/main.5a6ac507.chunk.js.map",
   "runtime~main.js": "/bitbooka/static/js/runtime~main.656de0a7.js",
@@ -7,8 +7,8 @@
   "static/js/2.ffbcccd2.chunk.js": "/bitbooka/static/js/2.ffbcccd2.chunk.js",
   "static/js/2.ffbcccd2.chunk.js.map": "/bitbooka/static/js/2.ffbcccd2.chunk.js.map",
   "index.html": "/bitbooka/index.html",
-  "precache-manifest.db642fe6b0f1457a7216d4709922b5d3.js": "/bitbooka/precache-manifest.db642fe6b0f1457a7216d4709922b5d3.js",
+  "precache-manifest.acbf8279c43e9867efbf818b8c051f99.js": "/bitbooka/precache-manifest.acbf8279c43e9867efbf818b8c051f99.js",
   "service-worker.js": "/bitbooka/service-worker.js",
-  "static/css/main.45ea5b12.chunk.css.map": "/bitbooka/static/css/main.45ea5b12.chunk.css.map",
+  "static/css/main.2d35de39.chunk.css.map": "/bitbooka/static/css/main.2d35de39.chunk.css.map",
   "static/media/not_found.png": "/bitbooka/static/media/not_found.57803829.png"
 }
