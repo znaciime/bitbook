@@ -2,7 +2,7 @@
   "name": "bitbook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://znaciime/bitbooka",
+  "homepage": "https://znaciime.github.io/bitbooka",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "jquery": "^3.4.0",

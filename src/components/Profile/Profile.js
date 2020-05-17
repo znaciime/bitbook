@@ -83,14 +83,14 @@ class Profile extends React.Component {
                 <div className="row justify-content-center">
                   <div className="chips">
                     <div className="chip">
-                      <div className="chip-icon">{user.comments}</div>posts
+                      <div className="chip-icon">{user.comments}</div>Comments
                     </div>
                   </div>
                   <div className="col-3" />
                   <div className="chips">
                     <div className="chip">
                       <div className="chip-icon">{user.posts}</div>
-                      comments
+                      Posts
                     </div>
                   </div>
                 </div>
