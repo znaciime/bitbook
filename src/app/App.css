@@ -38,7 +38,7 @@ button.btn-primary:hover {
   flex-direction: column;
 }
 main {
-  flex: 1 0 auto;
+  flex: none;
 }
 
 a:hover {
